@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body onscroll="calculoTop()">
+    <div id="forro"></div>
+    <div id="background-menu-responsivo" class="desativa-menu">
+        <div id="fora_menu"></div>
+        <div id="menu_responsivo" class="">
+            <div  id="botao-fecha-menu"><span><i id="x-fecha-menu" class="fa-sharp fa-solid fa-xmark"></i></span></div>
+                <ul class="" id="menu-toggle">
+                    <li class="li-menu-toggle"><a href="index.html">HOME</a></li>
+                    <li class="li-menu-toggle"><a href="#imagem-2">IMAGENS</a></li>
+                    <li class="li-menu-toggle"><a href="#rodape">RODAPÉ</a></li>
+                </ul>
+        </div>
+    </div>
+    <header id="nav">
+        
+        <div class="grid coluna-2" id="container-menu">
+            <div id="logo"><a href="index.html"><img src="imagens/logo_vassouras.png" alt=""></a></div>
+            <div id="botao-menu"><span><i id="botao-abre-menu" class="fa-sharp fa-solid fa-bars"></i></i></span></div>
+            <ul class="grid coluna" id="menu">
+                <li class="li-menu"></li>
+                <li class="li-menu"><a href="index.html">HOME</a></li>
+                <li class="li-menu"><a href="#imagem-2">IMAGENS</a></li>
+                <li class="li-menu"><a href="#rodape">RODAPÉ</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section>
+        <div id="slideContainer" class="slideContainer">
+            <div class="anterior">
+                <span class="seta"><i id="seta_antes" class="fa-sharp fa-solid fa-chevron-left"></i></span>
+            </div>
+            <div id="slide">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+            </div>
+            <div class="proximo">
+                <span class="seta"><i class="fa-sharp fa-solid fa-chevron-right"></i></span>
+            </div>
+            <div id="fim_slide">Clique nos botões para adicionar ou remover páginas do slide!</div>
+        </div>
+        <div class="botoes">
+            <div id="botao_remover" class="botao desativado"><span><i class="fa-sharp fa-solid fa-minus"></i></i></span></div>
+            <div id="botao_adicionar" class="botao ativado"><span><i class="fa-sharp fa-solid fa-plus"></i></span></div>
+        </div>
+    </section>
+    <main>
+            <section class="grid coluna-3" id="imagens">
+                
+                <div>
+                    <img src="imagens/foto-1.jpg" alt="" srcset="">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, pariatur beatae! Qui vero at dolores pariatur ipsum tempore nostrum distinctio, voluptates placeat explicabo velit mollitia dicta, est, accusamus nisi quod reiciendis esse optio possimus nihil nam a. Alias rem praesentium nisi? Excepturi libero ipsa corporis dolores accusantium repellendus, quis dolorum! Excepturi similique blanditiis placeat recusandae cum assumenda accusamus! Earum beatae quam, eius maxime delectus consequatur facilis iusto. Assumenda beatae unde soluta reprehenderit nesciunt, in perferendis voluptatibus, dolor recusandae, placeat totam veniam quisquam similique delectus. Quas, saepe rerum veniam quam ipsam repudiandae est dignissimos sed soluta ex eaque necessitatibus beatae voluptates!</p>
+                </div>
+                <div>
+                    <img id="imagem-2" src="imagens/foto-2.jpeg" alt="" srcset="">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae alias delectus eligendi vero tempore officia! Soluta pariatur quos, deleniti modi culpa maiores voluptatum sequi amet laborum illo voluptas, officiis iure alias distinctio rerum quod quam, perferendis quidem. A fugiat numquam aliquid. Cum, maxime facere ea, placeat similique vitae commodi rerum, sequi dignissimos tenetur neque ab ut eligendi aliquam nulla animi inventore laboriosam. Laboriosam eum, repudiandae odit quis explicabo qui molestiae saepe aperiam. Laudantium, quis ipsa aliquam minus debitis incidunt.</p>
+                </div>
+                <div>
+                    <img src="imagens/foto-3.jpg" alt="" srcset="">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit explicabo est quam earum laborum asperiores vel nulla voluptatum placeat neque obcaecati et nihil accusamus perferendis aspernatur dolores, commodi tempora adipisci iste magnam repudiandae sed, maiores doloremque. Deserunt aliquam animi rerum quas. Est tempora quia reprehenderit, laudantium doloremque porro magni quidem veniam veritatis aliquid officiis optio minus ab autem itaque aspernatur ad omnis qui natus ducimus voluptas suscipit dolor adipisci consectetur. Tenetur, ducimus voluptatibus voluptate quaerat dolor voluptas, minima natus dignissimos vitae deserunt eveniet ut placeat ipsum quibusdam corporis itaque vel.</p>
+                </div>
+            
+            </section>
+        </main>
+        <div id="backRodape">
+            <footer id="rodape" class="grid rodape">
+                    <div id="Logo_rodape"><img class="logo_rodape" src="imagens/UniVassouras-Vertical-Branca-300x211.png" alt=""></div>
+                    <div id="contatos_rodape">
+                        <h4>Campus Maricá</h4>
+                        <ul>
+                            <li><span><i class="fa-sharp fa-solid fa-location-dot"></i></span>Av. Governador Roberto Silveira, nº 437, Flamengo - Maricá/RJ</li>
+                            <li><span><i class="fa-sharp fa-solid fa-phone"></i></span>(21) 3731-2977</li>
+                            <li><span><i class="fa-sharp fa-regular fa-clock"></i></span>Segunda a sexta: 8h às 12h e 14h às 22h. Sábados: das 8h às 12h</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul id="social" class="grid">
+                            <li class="itemSocial"><a href="https://www.facebook.com/universidadedevassouras"><span><i class="fa-brands fa-facebook"></i></span></a><span class="tooltip">Facebook</span></li>
+                            <li class="itemSocial"><a href="https://twitter.com/uni_vassouras"><span><i class="fa-brands fa-x-twitter"></i></span></a><span class="tooltip">X-Twitter</span></li>
+                            <li class="itemSocial"><a href="https://www.youtube.com/channel/UCi4z_qXYlfK6kL6BxP58fKw"><span><i class="fa-brands fa-youtube"></i></span></a><span class="tooltip">YouTube</span></li>
+                            <li class="itemSocial"><a href="https://www.instagram.com/universidadedevassouras/?hl=pt-br"><span><i class="fa-brands fa-instagram"></i></span></a><span class="tooltip">Instagram</span></li>
+                            <li class="itemSocial"><a href="https://www.google.com.br/search?q=universidade+de+vassouras&oq=universidade+se&aqs=chrome.0.0j69i61l2j69i57j69i61j0.3915j0j8&sourceid=chrome&ie=UTF-8"><span><i class="fa-brands fa-google-plus-g"></i></span></a><span class="tooltip">Google +</span></li>
+                            <li class="itemSocial"><a href="https://www.linkedin.com/company/universidade-de-vassouras/"><span><i class="fa-brands fa-linkedin-in"></i></span></a><span class="tooltip">LinkedIn</span></li>
+                            <li class="itemSocial"><a href="https://www.tiktok.com/@universidadedevassouras?"><span><i class="fa-brands fa-tiktok"></i></span></a><span class="tooltip">TikTok</span></li>
+                        </ul>
+                    </div>
+            </footer>
+        </div>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/3547d65017.js" crossorigin="anonymous"></script>
+</html>
